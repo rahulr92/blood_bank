@@ -4,9 +4,25 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Automated Online Blood Bank Database Project</title>
 <script type="text/javascript" src="actions.js" ></script>
+<link rel="stylesheet" href="style.css" />
 </head>
 
 <body >
+<h1>Automated Bloodbank Database Management Project</h1>
+<ol>
+<li>Register as Donor</li>
+<li>Why donate blood?</li>
+<li>Refer a friend</li>
+<li>Contact Us</li>
+</ol>
+<div id="login_form">
+<form action="validate.php" method="post">
+Donor Login	<input type="text" name="username"/>
+Password <input	type="password" name="password" />
+    <a href="forgetpassword.php">Forgot password?</a>
+</form>
+</div>
+<div id="search_form">
 <form action="" method="post" name="search">
 		<select name="state">
         <option value="" selected="selected"> --- Select State ---</option>
@@ -14,6 +30,12 @@
          </select>
          <br />
 	<input type="text" id="city" value="--Enter City--"  onfocus="this.select()" />
+    <br/>
+   	<input type="text" id="area" value="--Enter Area--"  onfocus="this.select()" />
+    <br  />
+   	<input type="text" id="b_group" value="--Enter Blood Group--"  onfocus="this.select()" />
+    <br  />
 </form>
+</div>
 </body>
 </html>
