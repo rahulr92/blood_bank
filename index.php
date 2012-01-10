@@ -10,7 +10,7 @@
 <body >
 <h1>Automated Bloodbank Database Management Project</h1>
 <ol>
-<li>Register as Donor</li>
+<li><a href="register/form.php">Register as Donor</a></li>
 <li>Why donate blood?</li>
 <li>Refer a friend</li>
 <li>Contact Us</li>
@@ -34,6 +34,7 @@ Password <input	type="password" name="password" />
    	<input type="text" id="area" value="--Enter Area--"  onfocus="this.select()" />
     <br  />
    	<input type="text" id="b_group" value="--Enter Blood Group--"  onfocus="this.select()" />
+    <input type="submit" name="submit" value="Search" />
     <br  />
 </form>
 </div>
