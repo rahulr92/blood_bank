@@ -1,5 +1,4 @@
 High priority
-> Host prototype using x10 hosting
 > Setup database
 > Setup registeration page
 > Setup validate.php //login 
@@ -9,3 +8,6 @@ Low priority
 > Setup stylesheet //similar to Bharatbloodbank.com
 > Add interactivity //actions.js
 > Setup forgetpassword.php //email password
+
+Done
+> Host prototype using x10 hosting
