@@ -1,6 +1,5 @@
-High priority
+High priority //will be done today itself :)
 > Setup database
-> Setup registeration page
 > Setup validate.php //login 
 > Setup search functionality
 
@@ -9,5 +8,7 @@ Low priority
 > Add interactivity //actions.js
 > Setup forgetpassword.php //email password
 
-Done
+Done 
 > Host prototype using x10 hosting
+http://rahulr92.x10.mx/blood_bank
+> Setup registeration page
