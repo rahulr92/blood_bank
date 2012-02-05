@@ -1,3 +1,46 @@
 @charset "utf-8";
 /* CSS Document */
+body
+{
+background:url(images/bg.png);	
+}
+#menu
+{
+	height:72px;
+	width:1020px;
+	background:url(images/menu_bg.png) no-repeat;
+}
 
+#menu ol
+{	
+	display:inline;
+	list-style:none;
+
+}
+
+#menu ol li
+{
+	float:left;
+	padding:10px 10px 10px 10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	color:#CCC;
+		margin-left:50px;
+}
+#menu a
+{
+text-decoration:none;
+	color:#CCC;
+}
+#menu a:hover
+{
+color:#99F;
+}
+#wrapper
+{
+	margin-left:20px;
+}
+h1
+{
+	padding-left:120px;
+}
